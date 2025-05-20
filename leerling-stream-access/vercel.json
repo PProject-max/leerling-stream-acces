@@ -1,1 +1,11 @@
-{ "routes": [{ "src": "/view", "dest": "api/view.js" }] }
+{
+  "routes": [
+    {
+      "src": "/view",
+      "methods": ["GET"],
+      "dest": "/api/view.js"
+    }
+  ]
+}
+
+Fix route config
